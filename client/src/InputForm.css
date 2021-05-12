@@ -1,0 +1,94 @@
+.home-page{
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.home-page-form{
+    width: 50%;
+    background-color: #f3f2ef;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 3rem rgba(48, 37, 37, 0.2);
+    margin-bottom: 50px;
+}
+
+.form-group{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+}
+
+.form-group Input{
+    height: 30px;
+    margin-top: 5px;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.submit-button{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.submit-button Button{
+    color: white;
+    background-color: blue;
+    transition: all .6s ease-in-out;
+    width: 100px;
+    height: 30px;
+}
+
+.submit-button button:hover,
+.submit-button button:active{
+    cursor: pointer;
+    background-color: rgb(4, 6, 109);
+    transform: scale(1.5,1.3);
+}
+  
+.get-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+button{
+    color: white;
+    width: 40%;
+    height: 50px;
+    background-color: green;
+    margin-bottom: 30px;
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 3rem rgba(48, 37, 37, 0.2);
+}
+
+button:active,
+button:hover{
+    cursor: pointer;
+    background-color: rgb(36, 99, 36);
+    transform: linear 0.1s;
+}
+
+.show-data {
+    width: 70%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 3rem rgba(48, 37, 37, 0.2);
+}
+
+.show-data h3 {
+    margin: 20px;
+}
